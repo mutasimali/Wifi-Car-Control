@@ -1,0 +1,124 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Wifi Car Controller"
+        android:textColor="#3f3f3f"
+        android:textSize="25px" />
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="5px"
+    />
+    
+<Button
+    android:id="@+id/connect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" 
+            android:layout_gravity="center"
+        
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+        
+<com.mutasim.wificarcontroller.JoystickView
+    android:id="@+id/joystickView"
+    android:layout_width="150dip"
+    android:layout_height="150dip"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="5dip"
+    android:background="@drawable/joystick_bg" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dip" >
+
+                <TableRow android:layout_gravity="left"
+                          android:layout_width="wrap_content">
+                     <TextView 
+                            android:text="Angle:" 
+                            android:id="@+id/TextVieX"
+                            android:layout_width="wrap_content" 
+                            android:textColor="#3f3f3f"
+                            android:layout_gravity="left"
+                            android:layout_height="wrap_content">
+                        </TextView>   
+                    <TextView 
+                            android:text="" 
+                            android:id="@+id/TextViewX"
+                            android:layout_width="60dip" 
+                            android:textColor="#3f3f3f"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                             <TextView 
+                            android:text="Lights" 
+							android:id="@+id/lig"
+                            android:layout_width="wrap_content" 
+                            android:textColor="#3f3f3f"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content">
+                        </TextView> 
+                </TableRow>
+
+                <TableRow android:layout_gravity="left" >
+ 						<TextView 
+                            android:text="Speed:" 
+                            android:id="@+id/TextVieY"
+                            android:layout_width="wrap_content" 
+                            android:textColor="#3f3f3f"
+                            android:layout_gravity="left"
+                            android:layout_height="wrap_content">
+                        </TextView> 
+                        <TextView
+                            android:id="@+id/TextViewY"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text=""
+                            android:textColor="#3f3f3f" >
+                        </TextView>
+                        <ToggleButton android:id="@+id/tb"
+							android:layout_width="50px"
+							android:layout_gravity="center_horizontal"
+							android:layout_height="25px"/>
+                </TableRow>
+        </TableLayout>
+</LinearLayout>
+        
+        <SlidingDrawer
+            android:id="@+id/slidingDrawer"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:content="@+id/content"
+            android:handle="@+id/handle" >
+
+            <Button
+                android:id="@+id/handle"
+                android:layout_width="0dip"
+                android:layout_height="0dip"
+                android:text="" 
+                android:background="@drawable/lg"/>
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="0dip"
+                android:background="#dfdfdf"
+                android:layout_height="0dip"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </SlidingDrawer>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rb"
+    android:layout_gravity="center"
+     android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical" >
+      <TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="2px"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PROJECT TEAM"
+        android:id="@+id/t0"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+   <TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="3px"
+    />
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    <ImageView
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:id="@+id/logo"
+        android:background="@drawable/img" />
+   <TableRow
+    android:layout_width="20px"
+         android:layout_marginTop="5dip"
+    android:layout_height="15px">
+       </TableRow>
+   
+<TableLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dip">
+  <TableRow android:layout_gravity="center_horizontal" >  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/t1"
+        android:text="Leader"
+        android:textColor="#ffffff"
+        android:textSize="20px" />
+    </TableRow>
+   <TableRow android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Dr.Zeng Yujiang (曾喻江) "
+        android:textColor="#ffffff"
+        android:textSize="15px" />
+   </TableRow>
+       <TableRow android:layout_gravity="center_horizontal" >  
+       <TextView
+        android:id="@+id/t12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="zengyj@mail.hust.edu.cn"
+        android:layout_marginTop="5dip"
+        android:textColor="#ffffff"
+        android:textSize="12px" />
+       </TableRow>
+    <TableRow>  
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Members"
+        android:textColor="#ffffff"
+        android:textSize="20px" />
+    </TableRow>
+       <TableRow android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Mutasim Ali (穆沙) "
+        android:textColor="#ffffff"
+        android:textSize="15px" />
+       </TableRow>
+                 <TableRow android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="erorr62@hotmail.com"
+        android:textColor="#ffffff"
+        android:textSize="12px" />
+    </TableRow>
+              <TableRow android:layout_gravity="center_horizontal" >
+        <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Naser Naji (纳瑟) "
+        android:textColor="#ffffff"
+        android:textSize="15px" />
+</TableRow>
+              <TableRow android:layout_gravity="center_horizontal" >
+        <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="n.nagi@hotmail.com"
+        android:textColor="#ffffff"
+        android:textSize="12px" />
+   </TableRow>
+          <TableRow android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Mohamed Galol"
+        android:textColor="#ffffff"
+        android:textSize="15px" />
+       </TableRow>
+                       <TableRow android:layout_gravity="center_horizontal" >
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="galool6@hotmail.com"
+        android:textColor="#ffffff"
+        android:textSize="12px" />
+    </TableRow>
+              <TableRow android:layout_gravity="center_horizontal" >
+        <TextView
+        android:id="@+id/t10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Maher Saleh"
+        android:textColor="#ffffff"
+        android:textSize="15px" />
+        </TableRow>
+
+                    <TableRow android:layout_gravity="center_horizontal" >
+    
+        <TextView
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="memonero@hotmail.com"
+        android:textColor="#ffffff"
+        android:textSize="12px" />
+   </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</LinearLayout>
